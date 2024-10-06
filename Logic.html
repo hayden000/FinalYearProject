@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Python: module Logic</title>
+</head>
+<body>
+
+<table class="heading">
+    <tr class="heading-text decor">
+        <td class="title">&nbsp;<br><strong class="title">Logic</strong></td>
+        <td class="extra"><a href=".">index</a><br><a href="file:/Users/haydenamarr/PROJECT/src/Logic.py">/Users/haydenamarr/PROJECT/src/Logic.py</a>
+        </td>
+    </tr>
+</table>
+<p></p>
+<p>
+<table class="section">
+    <tr class="decor functions-decor heading-text">
+        <td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td>
+    </tr>
+
+    <tr>
+        <td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+        <td>&nbsp;</td>
+        <td class="singlecolumn">
+            <dl>
+                <dt><a name="-authCheck"><strong>authCheck</strong></a>(autharisations, allocations)</dt>
+            </dl>
+            <dl>
+                <dt><a name="-check"><strong>check</strong></a>(job1, job2, jobGroups, type)</dt>
+            </dl>
+            <dl>
+                <dt><a name="-checkAll"><strong>checkAll</strong></a>(rules, allocation)</dt>
+            </dl>
+            <dl>
+                <dt><a name="-checkBOD"><strong>checkBOD</strong></a>(job1, job2, jobGroups)</dt>
+                <dd><span class="code">Checks&nbsp;if&nbsp;two&nbsp;jobs&nbsp;are&nbsp;assigned&nbsp;to&nbsp;the&nbsp;same&nbsp;person&nbsp;within&nbsp;a&nbsp;list&nbsp;of&nbsp;job&nbsp;groups.<br>
+&nbsp;<br>
+This&nbsp;function&nbsp;itterates&nbsp;through&nbsp;the&nbsp;list&nbsp;of&nbsp;job&nbsp;groups&nbsp;to&nbsp;determine&nbsp;if&nbsp;both&nbsp;the&nbsp;job1&nbsp;and&nbsp;job2&nbsp;are&nbsp;allocated&nbsp;to&nbsp;the&nbsp;same&nbsp;person.<br>
+&nbsp;<br>
+args<br>
+&nbsp;&nbsp;&nbsp;&nbsp;job1&nbsp;(int):&nbsp;the&nbsp;first&nbsp;job&nbsp;to&nbsp;check<br>
+&nbsp;&nbsp;&nbsp;&nbsp;job2&nbsp;(int):&nbsp;the&nbsp;second&nbsp;job&nbsp;to&nbsp;check<br>
+&nbsp;&nbsp;&nbsp;&nbsp;jobGroups&nbsp;(list):&nbsp;a&nbsp;list&nbsp;of&nbsp;jobs&nbsp;where&nbsp;each&nbsp;group&nbsp;is&nbsp;represented&nbsp;as&nbsp;a&nbsp;list&nbsp;of&nbsp;job&nbsp;assignments<br>
+&nbsp;<br>
+returns<br>
+&nbsp;&nbsp;&nbsp;&nbsp;bool:&nbsp;true&nbsp;when&nbsp;both&nbsp;jobs&nbsp;are&nbsp;assigned&nbsp;to&nbsp;the&nbsp;same&nbsp;person&nbsp;otherwise&nbsp;returns&nbsp;false</span>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a name="-checkSOD"><strong>checkSOD</strong></a>(job1, job2, jobGroups)</dt>
+            </dl>
+            <dl>
+                <dt><a name="-generate_partitions"><strong>generate_partitions</strong></a>(numjobs)</dt>
+            </dl>
+        </td>
+    </tr>
+</table>
+<p>
+<table class="section">
+    <tr class="decor data-decor heading-text">
+        <td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td>
+    </tr>
+
+    <tr>
+        <td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
+        <td>&nbsp;</td>
+        <td class="singlecolumn"><strong>autharisations</strong> = [[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3,
+            4]]<br>
+            <strong>numjobs</strong> = 10<br>
+            <strong>rules</strong> = [[2, 4, 'SOD'], [1, 2, 'BOD']]
+        </td>
+    </tr>
+</table>
+</body>
+</html>
